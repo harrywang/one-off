@@ -11,17 +11,18 @@ with open('input.csv', 'rb') as f:
 my_list = []
 
 for movie in movies:
-    print '****** one movie ******'
+    # print '****** one movie ******'
     for genre in ast.literal_eval(movie[1]):
         line = []
-        print '****** one genre ******'
-        print movie[0]
-        print genre['id']
-        print genre['name']
+        # print '****** one genre ******'
+        # print movie[0]
+        # print genre['id']
+        # print genre['name']
         line.append(int(movie[0]))
         line.append(genre['id'])
-        print line
+        # print line
         my_list.append(line)
 
 my_df = pd.DataFrame(my_list)
-my_df.to_csv('my_csv.csv', index=False, header=False)
+my_df.to_csv('movie_genre.csv', index=False, header=False)
+print 'See result in movie_genre.csv file'
