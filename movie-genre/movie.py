@@ -23,6 +23,7 @@ for movie in movies:
         # print line
         my_list.append(line)
 
+print(my_list)
 my_df = pd.DataFrame(my_list)
 my_df.to_csv('movie_genre.csv', index=False, header=False)
 print 'See result in movie_genre.csv file'

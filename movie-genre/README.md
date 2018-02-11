@@ -1,3 +1,6 @@
+# Intro
+This is a program to do some data transformation.
+
 The key challenge is converting the following "list-like" string into a real list:
 
 ```
@@ -24,3 +27,11 @@ pandas makes it easy:
 my_df = pd.DataFrame(my_list)
 my_df.to_csv('my_csv.csv', index=False, header=False)
 ```
+
+# Run
+
+Python 2.x
+
+- create virtual environment: `$virtualenv venv`
+- activate virtual env: `$source venv/bin/activate`
+- install required packages: `pip install -r requirements.txt`
