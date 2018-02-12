@@ -44,6 +44,7 @@ I use this repo to demonstrate how I setup PyCharm for different projects with d
   ![gi77e](https://user-images.githubusercontent.com/595772/36077020-28080f94-0f33-11e8-8717-0f5eaf259342.png)
 
   b. Go to Run -> Edit Configurations and select Show command line afterwards:
+  
   ![eim3r](https://user-images.githubusercontent.com/595772/36077025-46c516e8-0f33-11e8-916a-79c573df0cae.png)
 
   Now you can run selected parts of your code in PyCharm with ALT+SHIFT+E more or less exactly like in Spyder.
