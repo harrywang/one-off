@@ -16,5 +16,6 @@ Tested with Python 3.6 via virtual environment:
 ```shell
 $ python3.6 -m venv venv
 $ source venv/bin/activate
+$ pip install -r requirements.txt
 $ jupyter notebook
 ```
